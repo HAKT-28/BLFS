@@ -4,7 +4,7 @@ Team Name: HAKT-28 (WIP)
 Team Members:
 Tom Latimer - 300250278
 Kambel Fobissie
-Hamza Bouzoubaa
+Hamza Bouzoubaa - 300259902
 Abd-Ennour Souit
 Manaal Mujeebuddin
 
