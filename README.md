@@ -6,7 +6,7 @@ Tom Latimer - 300250278
 Kambel Fobissie
 Hamza Bouzoubaa - 300259902
 Abd-Ennour Souit
-Manaal Mujeebuddin
+Manaal Mujeebuddin - 300255452
 
 Product Name: OpportuniTea (WIP)
 
