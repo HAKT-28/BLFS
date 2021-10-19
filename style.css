@@ -1,0 +1,16 @@
+.background1 {
+    background-image: url("images/campus.jpg");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(10px);
+}
+/* Image by <a href="https://pixabay.com/users/islandworks-1139623/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2540633">Q K</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2540633">Pixabay</a> */
+
+.blurb{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
