@@ -56,12 +56,16 @@ body, html {
     height:44px;
 }
 
+.content {
+    height: calc(91vh + 9px);
+}
 
 .bgimg {
     top: 0;
     left: 0;
+    
     width: 100%;
-    max-height: 91vh;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
 }
@@ -73,6 +77,18 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+}
+
+.blurb h1 {
+    color: red;
+}
+
+.solid-box {
+    margin: 0;
+    background-color: #e0e1dd;
+    width: 100%;
+    height: 200px;
 }
 
 /* Product features */
@@ -81,7 +97,6 @@ text-align:center;
 
 }
 
-/* Common elements */
 .header{
     overflow: hidden;
     background-color: #f1f1f1;
