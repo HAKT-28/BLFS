@@ -99,21 +99,72 @@ text-align:center;
 
 .header{
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
+    background-color: #464545;
+    padding: 10px 10px;
 }
 
 .header a.logo{
+    text-decoration: none;  
     font-size: 25px;
-    font-weight: bold;
+    color: rgb(228, 228, 228);
 }
 
+
 .header a.about{
+    text-decoration: none;
     font-size: 25px;
-    font-weight: bold;
     float: right;
-}
+    padding: 0px 15px;
+    color: rgb(228, 228, 228);
+} 
 .header a:hover{
-    background-color: #ddd;
-    color: black;
+   
+    color: rgb(255, 255, 255);
 }
+
+.form {
+    text-align: center  ;
+       
+}
+
+.img_contatc_us {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    padding: 0px 50px 50px 50px ;  
+    
+    background-color: blueviolet;
+
+}
+
+
+
+.blurb_main  {
+       
+    position:relative;
+    float:right;
+    right: 200px;
+    bottom: 480px;
+    transform: translate(-50%, -50%);
+
+}
+
+
+h2b{
+    position: relative;
+    bottom: 700px;
+    left : 400px;
+    float: left;
+    font-size: 60px;
+    color:darkorchid;
+    transform: translate(-50%, -50%);
+
+}
+
+    
+.blurb_main h1{
+    color: rgb(45, 65, 182);
+}
+
