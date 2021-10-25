@@ -96,7 +96,10 @@ body, html {
 text-align:center;
 
 }
-
+.h3 {
+    text-align: left;
+    color:#097969;
+}
 .header{
     overflow: hidden;
     background-color: #464545;
