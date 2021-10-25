@@ -102,7 +102,7 @@ text-align:center;
 }
 .header{
     overflow: hidden;
-    background-color: #464545;
+    background-color:rgb(9,121,105);
     padding: 10px 10px;
 }
 
@@ -123,12 +123,17 @@ text-align:center;
 .header a:hover{
    
     color: rgb(255, 255, 255);
+    text-decoration: rgb(255, 255, 255);
+    text-decoration-line:underline;
 }
+
 
 .form {
     text-align: center  ;
        
 }
+
+
 
 .img_contatc_us {
     display: block;
@@ -158,7 +163,7 @@ text-align:center;
 h2b{
     position: relative;
     bottom: 700px;
-    left : 400px;
+    left : 155px;
     float: left;
     font-size: 60px;
     color:darkorchid;
@@ -171,73 +176,30 @@ h2b{
     color: rgb(45, 65, 182);
 }
 
-
-/* About */
-
-.sub-header{
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/About\ Us/Corporate);
-    background-position: center;
-    background-size: cover;
+.boxed {
     text-align: center;
-    color: #fff;
-}
-.sub-header h1{
-    margin-top: 100px;
-}
-
-.Origin{
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-
-.Origin{
-    flex-basis: 48%;
-    padding: 30px 2px;
-}
-.Origin img{
-    width: 50%;
-}
-
-.Why{
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-
-.Why{
-    flex-basis: 48%;
-    padding: 30px 2px;
-}
-.Why img{
-    width: 50%;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-  }
-  
-  html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  .column {
+    padding: 25px 25px 25px 25px;
+    background-color: #f8f8f8;
+    position: relative;
+    border: 1px solid #e5e5e5 ;
+    transform: translate(-50%, -50%);
     float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
-  }
+    bottom: 350px;
+    left : 200px;
+
+}
+
+.box {
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    background-color: #f8f8f8;
+    
+    position: relative;
+    border: 1px solid #e5e5e5 ;
+    transform: translate(-50%, -50%);
+    float: left;
+    bottom: 350px;
+    left : 0px;
+
+}
+
