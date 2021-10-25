@@ -99,7 +99,7 @@ text-align:center;
 
 .header{
     overflow: hidden;
-    background-color: #464545;
+    background-color:rgb(9,121,105);
     padding: 10px 10px;
 }
 
@@ -120,12 +120,17 @@ text-align:center;
 .header a:hover{
    
     color: rgb(255, 255, 255);
+    text-decoration: rgb(255, 255, 255);
+    text-decoration-line:underline;
 }
+
 
 .form {
     text-align: center  ;
        
 }
+
+
 
 .img_contatc_us {
     display: block;
@@ -155,7 +160,7 @@ text-align:center;
 h2b{
     position: relative;
     bottom: 700px;
-    left : 400px;
+    left : 155px;
     float: left;
     font-size: 60px;
     color:darkorchid;
@@ -166,5 +171,32 @@ h2b{
     
 .blurb_main h1{
     color: rgb(45, 65, 182);
+}
+
+.boxed {
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    background-color: #f8f8f8;
+    position: relative;
+    border: 1px solid #e5e5e5 ;
+    transform: translate(-50%, -50%);
+    float: left;
+    bottom: 350px;
+    left : 200px;
+
+}
+
+.box {
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    background-color: #f8f8f8;
+    
+    position: relative;
+    border: 1px solid #e5e5e5 ;
+    transform: translate(-50%, -50%);
+    float: left;
+    bottom: 350px;
+    left : 0px;
+
 }
 
