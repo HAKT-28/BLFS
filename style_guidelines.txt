@@ -1,7 +1,36 @@
+Overall Look and Feel of EngineerUs
+===============================
+
+The overall look and feel is hopeful, calming, and renewal. 
+The website should be calm and gentle for the user but inspiring enough to keep them interested.
+
 Colours
 ========
-- #0d1b2a
-- #1b263b
-- #415a77
-- #778da9
-- #e0e1dd
+For EngineerUs, colours reflect our vision to the users and represent that we come from a place of passion and sincerity.
+These are our color swatches:
+1. Cadmium Green
+- #097969 rgb(9,121,105)
+2. Pastel Green
+- #C1E1C1 rgb(193,225,193)
+3. Black
+- #000000 rgb(0,0,0)
+4. White
+- #ffffff 
+
+Iconography
+===========
+The large focus will be a refreshing and simple design, so it is a better experience for users.
+Simple and relatable.
+
+Typography
+==========
+We will be using serif from Google Fonts.
+
+Links
+=====
+Links will not be underlined and should change color when a user hovers over it.
+
+Buttons
+=======
+Buttons will be designed to be simplistic and easy to use.
+
