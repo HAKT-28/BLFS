@@ -13,29 +13,33 @@ body, html {
     padding: 0;
 }  
 
-.header {
-min-height: 100vh;
-width: 100%;
-background-image: url(images/index/fabric-bg.jpg);
-background-position: center;
-background-size: cover;
-position: relative;
+#home-page {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/index/fabric.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 nav {
     display: flex;
-    padding-top: 2%;
+    padding-top: 7px;
+    padding-bottom: 7px;
     padding-right: 6%;
+    padding-left: 5%;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(4, 9, 30, 0.26);
 }
 
 nav img {
-    width: 100px;
+    width: 70px;
 }
 
 .nav-links {
     text-align: right;
+    font-family: 'Playfair Display', serif;
 }
 
 .nav-links ul li {
@@ -46,9 +50,33 @@ nav img {
 }
 
 .nav-links ul li a{
-    color: #fff;
+    color: black;
     text-decoration: none;
-    font-size: 12 px;
+    font-size: 23px;
+}
+
+.title-box {
+    width: 90%;
+    color: rgb(31,160,96);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-85%,-50%);
+    text-align: center;
+}
+
+.title-box h1{
+    font-size: 100px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.title-box p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Product features */
