@@ -58,20 +58,67 @@ text-align:center;
 }
 .h3 {
     text-align: left;
-    color:#097969;
 }
-.header{
+.header1{
     overflow: hidden;
-    background-color:rgb(9,121,105);
     padding: 10px 10px;
 }
 
-.header a.logo{
+.header1 a.logo{
     text-decoration: none;  
     font-size: 25px;
     color: rgb(228, 228, 228);
 }
+#Introtext{
+    text-align:center;
+    font-size: 17px;
+}
+.LEVELS{
+    color: black
+      div.a {
+        text-align: center;
+      }
+      
+      div.b {
+        text-align: right;
+      }
+      
+      div.c {
+        text-align: right;
+      } 
+      
+      div.d {
+        text-align: justify;
+      }
+      
+      
+      <div class="a">
+      <h2>What do we do</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+      
+      <div class="b">
+      #LEVEL0{
+          text-align: right;
+          color:#000000
+           <h2>Level 0</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+      }
+     
+      
+      <div class="c">
+      <h2>Level 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+      
+      <div class="d">
+      <h2>Level 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
 
+    
+}
 
 .header a.about{
     text-decoration: none;
@@ -92,7 +139,9 @@ text-align:center;
     text-align: center  ;
        
 }
-
+.sub-header{
+    text-align: right;
+}
 
 
 .img_contatc_us {
