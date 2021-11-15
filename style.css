@@ -13,29 +13,33 @@ body, html {
     padding: 0;
 }  
 
-.header {
-min-height: 100vh;
-width: 100%;
-background-image: url(images/index/fabric-bg.jpg);
-background-position: center;
-background-size: cover;
-position: relative;
+#home-page {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/index/fabric.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 nav {
     display: flex;
-    padding-top: 2%;
+    padding-top: 7px;
+    padding-bottom: 7px;
     padding-right: 6%;
+    padding-left: 5%;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(4, 9, 30, 0.26);
 }
 
 nav img {
-    width: 100px;
+    width: 70px;
 }
 
 .nav-links {
     text-align: right;
+    font-family: 'Playfair Display', serif;
 }
 
 .nav-links ul li {
@@ -46,9 +50,33 @@ nav img {
 }
 
 .nav-links ul li a{
-    color: #fff;
+    color: black;
     text-decoration: none;
-    font-size: 12 px;
+    font-size: 23px;
+}
+
+.title-box {
+    width: 90%;
+    color: rgb(31,160,96);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-85%,-50%);
+    text-align: center;
+}
+
+.title-box h1{
+    font-size: 100px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.title-box p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Product features */
@@ -58,20 +86,67 @@ text-align:center;
 }
 .h3 {
     text-align: left;
-    color:#097969;
 }
-.header{
+.header1{
     overflow: hidden;
-    background-color:rgb(9,121,105);
     padding: 10px 10px;
 }
 
-.header a.logo{
+.header1 a.logo{
     text-decoration: none;  
     font-size: 25px;
     color: rgb(228, 228, 228);
 }
+#Introtext{
+    text-align:center;
+    font-size: 17px;
+}
+.LEVELS{
+    color: black
+      div.a {
+        text-align: center;
+      }
+      
+      div.b {
+        text-align: right;
+      }
+      
+      div.c {
+        text-align: right;
+      } 
+      
+      div.d {
+        text-align: justify;
+      }
+      
+      
+      <div class="a">
+      <h2>What do we do</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+      
+      <div class="b">
+      #LEVEL0{
+          text-align: right;
+          color:#000000
+           <h2>Level 0</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+      }
+     
+      
+      <div class="c">
+      <h2>Level 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
+      
+      <div class="d">
+      <h2>Level 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      </div>
 
+    
+}
 
 .header a.about{
     text-decoration: none;
@@ -92,7 +167,9 @@ text-align:center;
     text-align: center  ;
        
 }
-
+.sub-header{
+    text-align: right;
+}
 
 
 .img_contatc_us {
