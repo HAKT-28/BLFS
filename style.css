@@ -82,6 +82,12 @@ nav img {
     font-size: 23px;
 }
 
+#exception ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
 /* Product features */
 .title {
     text-align: center;
@@ -178,7 +184,7 @@ nav img {
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(9,121,105),rgba(4,9,30,0.7)),url(images/About\ Us/Corporate);
+    background-image: linear-gradient(rgb(4, 9, 30,0.7),rgb(255, 255, 255)),url(images/About_Us/business-group-team-hands.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -199,8 +205,16 @@ nav img {
     flex-basis: 48%;
     padding: 30px 2px;
 }
+
 .Origin img{
     width: 50%;
+}
+.Origin h1{
+    padding-top: 0;
+}
+
+.Origin p{
+    padding: 15px 0 25px;
 }
 
 .Why{
@@ -218,8 +232,10 @@ nav img {
     width: 50%;
 }
 
+/*My Team */
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, 'Times New Roman', Times, serif;
     margin: 0;
   }
   
@@ -243,6 +259,42 @@ body {
     margin: 8px;
   }
 
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
 
 
 
@@ -309,7 +361,6 @@ body {
     margin:0;
     padding:0;
 }
-
 
 /* ?????? */
 .header{
