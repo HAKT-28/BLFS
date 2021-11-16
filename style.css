@@ -1,11 +1,13 @@
 /*
 Colours
-#0d1b2a
-#1b263b
-#415a77
-#778da9
-#e0e1dd
- background-color: rgba(9,121,105);
+1. Cadmium Green
+- #097969 rgb(9,121,105)
+2. Pastel Green
+- #C1E1C1 rgb(193,225,193)
+3. Black
+- #000000 rgb(0,0,0)
+4. White
+- #ffffff 
 */
 /* Landing Page */
 body, html {
@@ -13,29 +15,58 @@ body, html {
     padding: 0;
 }  
 
-.header {
-min-height: 100vh;
-width: 100%;
-background-image: url(images/index/fabric-bg.jpg);
-background-position: center;
-background-size: cover;
-position: relative;
+#home-page {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/index/fabric.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
+.title-box {
+    width: 90%;
+    color: rgb(31,160,96);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-85%,-50%);
+    text-align: center;
+}
+
+.title-box h1{
+    font-size: 100px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.title-box p{
+    color: rgb(24, 23, 23);
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+/* Navigation Bar */
 nav {
     display: flex;
-    padding-top: 2%;
+    padding-top: 7px;
+    padding-bottom: 7px;
     padding-right: 6%;
+    padding-left: 5%;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(4, 9, 30, 0.26);
 }
 
 nav img {
-    width: 100px;
+    width: 70px;
 }
 
 .nav-links {
     text-align: right;
+    font-family: 'Playfair Display', serif;
 }
 
 .nav-links ul li {
@@ -46,121 +77,100 @@ nav img {
 }
 
 .nav-links ul li a{
-    color: #fff;
+    color: black;
     text-decoration: none;
-    font-size: 12 px;
+    font-size: 23px;
 }
 
 /* Product features */
-#Prodfeat {
-text-align:center;
-
-}
-.h3 {
-    text-align: left;
-    color:#097969;
-}
-.header{
-    overflow: hidden;
-    background-color:rgb(9,121,105);
-    padding: 10px 10px;
-}
-
-.header a.logo{
-    text-decoration: none;  
-    font-size: 25px;
-    color: rgb(228, 228, 228);
-}
-
-
-.header a.about{
-    text-decoration: none;
-    font-size: 25px;
-    float: right;
-    padding: 0px 15px;
-    color: rgb(228, 228, 228);
-} 
-.header a:hover{
-   
-    color: rgb(255, 255, 255);
-    text-decoration: rgb(255, 255, 255);
-    text-decoration-line:underline;
-}
-
-
-.form {
-    text-align: center  ;
-       
-}
-
-
-
-.img_contatc_us {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    height: 30%;
-    padding: 0px 50px 50px 50px ;  
-    
-    background-color: blueviolet;
-
-}
-
-
-
-.blurb_main  {
-       
-    position:relative;
-    float:right;
-    right: 200px;
-    bottom: 480px;
-    transform: translate(-50%, -50%);
-
-}
-
-
-h2b{
-    position: relative;
-    bottom: 700px;
-    left : 155px;
-    float: left;
-    font-size: 60px;
-    color:darkorchid;
-    transform: translate(-50%, -50%);
-
-}
-
-    
-.blurb_main h1{
-    color: rgb(45, 65, 182);
-}
-
-.boxed {
+.title {
     text-align: center;
-    padding: 25px 25px 25px 25px;
-    background-color: #f8f8f8;
-    position: relative;
-    border: 1px solid #e5e5e5 ;
-    transform: translate(-50%, -50%);
-    float: left;
-    bottom: 350px;
-    left : 200px;
-
+    padding: 20px 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
-.box {
-    text-align: center;
-    padding: 25px 25px 25px 25px;
-    background-color: #f8f8f8;
-    
-    position: relative;
-    border: 1px solid #e5e5e5 ;
-    transform: translate(-50%, -50%);
-    float: left;
-    bottom: 350px;
-    left : 0px;
+.container {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 10%);
+    flex-direction: row;
+    justify-content: center;
+}
 
+.levels {
+    order: 1;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.recruitment {
+    order: 2;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.recruitment p {
+    font-size: 20px;
+}
+
+.zero {
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+    gap: 15px;
+}
+
+.zero img {
+    width: 40%;
+    order: -1;
+    border-radius: 25px;
+}
+.one {
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+    gap: 15px;
+}
+
+.one img {
+    width: 40%;
+    order: 2;
+    border-radius: 25px;
+}
+
+.two {
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+    gap: 15px;
+    
+}
+
+.two img {
+    width: 40%;
+    order: -1;
+    border-radius: 25px;
+}
+
+.text-box {
+    background-color: #C1E1C1;
+    width: 40%;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+.text-box h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.text-box p {
+    font-size: 20px;
 }
 
 /* About */
@@ -236,16 +246,13 @@ body {
 
 
 
-
+/* Contact Us Pag */
 
 .location {
     width: 80%;
     margin:auto;
     padding: 80px 0;
-
-
 }
-
 
 .location iframe{
     width: 100%;
@@ -301,4 +308,53 @@ body {
 *{
     margin:0;
     padding:0;
+}
+
+
+/* ?????? */
+.header{
+    overflow: hidden;
+    background-color:rgb(9,121,105);
+    padding: 10px 10px;
+}
+
+.header a.logo{
+    text-decoration: none;  
+    font-size: 25px;
+    color: rgb(228, 228, 228);
+}
+
+
+.header a.about{
+    text-decoration: none;
+    font-size: 25px;
+    float: right;
+    padding: 0px 15px;
+    color: rgb(228, 228, 228);
+} 
+.header a:hover{
+   
+    color: rgb(255, 255, 255);
+    text-decoration: rgb(255, 255, 255);
+    text-decoration-line:underline;
+}
+
+
+.form {
+    text-align: center  ;
+       
+}
+
+.box {
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+    background-color: #f8f8f8;
+    
+    position: relative;
+    border: 1px solid #e5e5e5 ;
+    transform: translate(-50%, -50%);
+    float: left;
+    bottom: 350px;
+    left : 0px;
+
 }
