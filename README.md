@@ -5,7 +5,7 @@ Team Members:
 Tom Latimer - 300250278
 Kambel Fobissie - 300240235
 Hamza Bouzoubaa - 300259902
-Abd-Ennour Souit
+Abd-Ennour Souit - 300256956
 Manaal Mujeebuddin - 300255452
 
 Product Name: OpportuniTea (WIP)
