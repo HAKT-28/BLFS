@@ -1,4 +1,4 @@
-Overall Look and Feel of EngineerUs
+Overall Look and Feel of Upcyclothes
 ===============================
 
 The overall look and feel is hopeful, calming, and renewal. 
@@ -6,16 +6,18 @@ The website should be calm and gentle for the user but inspiring enough to keep 
 
 Colours
 ========
-For EngineerUs, colours reflect our vision to the users and represent that we come from a place of passion and sincerity.
+For Upcyclothes, colours reflect our vision to the users and represent that we come from a place of passion and sincerity.
 These are our color swatches:
-1. Cadmium Green
-- #097969 rgb(9,121,105)
-2. Pastel Green
-- #C1E1C1 rgb(193,225,193)
+1. Green
+- #097969 rgb(31,160,96)
+2. Red
+- #f44336 
 3. Black
 - #000000 rgb(0,0,0)
 4. White
 - #ffffff 
+4-Grey
+-#555
 
 Iconography
 ===========
